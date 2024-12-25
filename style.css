@@ -1,0 +1,1209 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Yuji+Mai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Yuji+Mai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Ga+Maamli&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Yuji+Mai&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Ga+Maamli&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Yuji+Mai&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: orange; */
+}
+
+
+
+
+.container{
+    position: relative;
+    width: 100vw;
+    background-color: orange;
+}
+
+/* cursor */
+.cursor{
+    height: 12px;
+    width: 12px;
+    background-color: white;
+    position: fixed;
+    border-radius: 50%;
+    /* margin-top: 100px; */
+}
+
+/* nav bar */
+.nav{
+    /* height: 80px; */
+    background-color:black;
+    color: white;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top:0% ;
+    /* gap: 10; */
+    /* margin-inline: 30px; */
+    padding-top: 10px;
+}
+.nav .logo{
+    font-family: "Yuji Mai", serif;
+    border-bottom:5px solid orange;
+    border-top: 5px solid orange;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 20px;
+    border-bottom-right-radius: 25%;
+    border-top-left-radius: 25%;
+    padding-top:0px ;
+}
+.nav-menu{
+    font-family: "Josefin Sans", sans-serif;
+    padding: 5px 20px;
+    
+}
+.nav-menu a{
+    margin: 0px 0px 5px 40px;
+    color: white;
+    text-decoration: none;
+    font-size:larger;
+    font-weight: 500;
+    
+}
+.nav-menu a:hover{
+    color: blue;
+}
+.nav-menu #login{
+    padding: 6px;
+    background-color: orange;
+    border-radius:5px ;
+}
+.nav-menu #login:hover{
+    background-color: rgb(255, 166, 0);
+    color: black;
+}
+.nav-menu a i{
+    height: 50px;
+    width: 50px;
+    color: orange;
+    font-weight: 500;
+    font-size: larger;
+}
+
+
+/* Home */
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    border-bottom:1px solid white;
+}
+.home .home-left{
+    height: 70vh;
+    margin-left:60px ;
+    padding-left: 90px;
+    /* background-color: aquamarine; */
+}
+.home .home-left h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+   
+}
+.home .home-left h3{
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 10px;
+    color: blue;
+    font-size: 30px;
+
+}
+
+
+.home .home-left h1 span{
+    font-family: "Yuji Mai", serif;
+    color: orange;
+    line-height: 0%;
+}
+.home .home-left p{
+    font-family: "Dancing Script", cursive;
+    padding-top: 5%;
+    font-size: larger;
+    
+}
+.home .home-left p span{
+    color: orange;
+}
+.home .home-left a{
+    width: 60px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    line-height: 4;
+    padding: 6px 10px;
+    border-radius: 5px;
+    /* margin-top: 100px; */
+
+}
+.home .home-left a:hover{
+    color:black
+}
+.home .home-right img{
+    height: 450px;
+    width: 50vw;
+     background-size: cover;
+     padding-right: 100px;
+     
+}
+.starters-container{
+    width: 100vw;
+    border-radius: 80%;
+    border-top: 1.5px solid white;
+    background-color: black;
+    color: white;
+
+}
+.starters-container .starters{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.starters-container .starters img{
+    width: 400px;
+    height: 400px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.starters-container .starters h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 90px;
+    font-weight:800 ;
+    margin-right: 400px;
+    color: orange;
+    width: 300px;
+    border-bottom: 1px solid white;
+   
+}
+.starters-right{
+    /* height: 200px ;
+    width: 350px; */
+    /* background-color: aqua; */
+    display: flex;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: -50px;
+
+}
+.starters-right a{
+    color: white;
+    text-decoration: none;
+}
+.starters-right .starterRText{
+    margin-top: 90px;
+    line-height:1;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 700px;
+    
+}
+.starters-right img{
+    height: 200px;
+    width: 200px;
+}
+.starters-left{
+    /* height: 200px ;
+    width: 350px; */
+    /* background-color: aqua; */
+    display: flex;
+    font-family: "Josefin Sans", sans-serif;
+    margin-left:200px ;
+    margin-top: -50px;
+}
+.starters-left a{
+    color: white;
+    text-decoration: none;
+}
+.starters-left .starterLText{
+     margin-top: 80px; 
+     line-height:1;   
+     font-size: 20px;
+     font-weight: 500;
+    
+}
+.starters-left img{
+    height: 200px;
+    width: 200px;
+}
+/* .frenchFried{
+    margin-left: 700px;
+    /* margin-top: 10px; */
+/* }
+.springRoll{
+    margin-left:200px ;
+    /* margin-top: 50px; */
+/* } */
+/* .samosa{
+    margin-left: 700px;
+} */ 
+ #starter button{
+     padding: 5px 7px;
+     background-color: orange;
+     color: white;
+     font-family: "Josefin Sans", sans-serif;
+     border: none;
+     border-radius:5px;
+     font-size: medium;
+     cursor: pointer;
+ }
+ #starter button:hover{
+    color: black;
+ }
+
+ /* Menu */
+ .menu{
+    background-color: black;
+    color: aliceblue;
+    padding-left: 200px;
+    padding-right: 200px;
+    /* position: relative; */
+ }
+ /* .menu .menuWithSVG{
+    height: 150px;
+    /* background-color: blueviolet; */
+  
+ .menu h1{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "Dancing Script", cursive;
+    color: orange;
+    border-bottom: 1px solid orange;
+   ;
+ }
+ .menu .string{
+    height:50px;
+    width: 900px;
+    background-color: aqua;
+    /* position: absolute; */
+ }
+ .soup h2{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    /* font-family: "Yuji Mai", serif; */
+    color: chartreuse;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+ }
+ 
+ .soup .soupItem h5{
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 60px;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+   cursor: pointer;
+ }
+ 
+ 
+ /* Noodles */
+ .noodles h2{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    /* font-family: "Yuji Mai", serif; */
+    color: chartreuse;
+    margin-left: 50px;
+    margin-top: 10px;
+ }
+ 
+ .noodles .noodlesItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Josefin Sans", sans-serif;
+    
+ }
+ .noodles .veg{
+    margin-top: 10px;
+    margin-left: 50px;
+ }
+ .noodles .nonVeg{
+    margin-top: 10px;
+    margin-left: 50px;
+ }
+ .noodles .nonVeg h3{
+    color:rgb(217, 158, 19);
+   font-size: 22px;
+ }
+ .noodles .veg h3{
+    color:rgb(217, 158, 19);
+    font-size: 22px;
+ }
+ .noodles .noodlesItem h5{
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+ }
+
+ /* Pizza */
+ 
+ .pizza h2{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    /* font-family: "Yuji Mai", serif; */
+    color: chartreuse;
+    margin-left: 50px;
+    margin-top: 10px;
+ }
+ /* veg */
+ .pizza .pizzaItem .veg{
+    margin-left: 70px;
+    margin-top: 10px;
+    font-family: "Josefin Sans", sans-serif;
+ }
+ .pizza .pizzaItem .veg h3{
+    color:rgb(217, 158, 19);
+    font-size: 20px;
+ }
+ 
+ .pizza .pizzaItem .veg h5{
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    cursor: pointer;
+ }
+ .pizza .pizzaItem .veg p{
+    font-weight: 300;
+    color: rgb(204, 204, 204);
+    padding-left: 20px;
+ }
+ .pizza .pizzaItem .veg button{
+    height: 30px;
+    width: 30px;
+    background-color: orange;
+    color: white;
+    margin: 0px 2px;
+    border: none;
+    border-radius: 4px;
+    font-size: large;
+    cursor: pointer;
+ }
+ .pizza .pizzaItem .veg button:hover{
+    color: black;
+ }
+ /* Non veg */
+ .pizza .pizzaItem .nonVeg{
+    margin-left: 70px;
+    margin-top: 10px;
+    font-family: "Josefin Sans", sans-serif;
+ }
+ 
+ .pizza .pizzaItem .nonVeg h3{
+    color:rgb(217, 158, 19);
+    font-size: 20px;
+ }
+ .pizza .pizzaItem .nonVeg h5{
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    cursor: pointer;
+ }
+ .pizza .pizzaItem .nonVeg p{
+    font-weight: 300;
+    color: rgb(204, 204, 204);
+    padding-left: 20px;
+ }
+ .pizza .pizzaItem .nonVeg button{
+    height: 30px;
+    width: 30px;
+    background-color: orange;
+    color: white;
+    margin: 0px 2px;
+    border: none;
+    border-radius: 4px;
+    font-size: large;
+    cursor: pointer;
+ }
+ .pizza .pizzaItem .nonVeg button:hover{
+    color: black;
+ }
+
+ /* Biryani */
+ .biryani h2{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    /* font-family: "Yuji Mai", serif; */
+    color: chartreuse;
+    margin-left: 50px;
+    margin-top: 10px;
+ }
+ 
+  /* veg */
+  .biryani .biryaniItem .veg{
+    margin-left: 70px;
+    margin-top: 10px;
+    font-family: "Josefin Sans", sans-serif;
+ }
+ .biryani .biryaniItem .veg h3{
+    color:rgb(217, 158, 19);
+    font-size: 20px;
+ }
+ 
+ .biryani .biryaniItem .veg h5{
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    cursor: pointer;
+ }
+ .biryani .biryaniItem .veg p{
+    font-weight: 300;
+    color: rgb(204, 204, 204);
+    padding-left: 20px;
+ }
+
+ /* non veg */
+.biryani .biryaniItem .nonVeg{
+    margin-left: 70px;
+    margin-top: 10px;
+    font-family: "Josefin Sans", sans-serif;
+ }
+ .biryani .biryaniItem .nonVeg h3{
+    color:rgb(217, 158, 19);
+    font-size: 20px;
+ }
+ 
+ .biryani .biryaniItem .nonVeg h5{
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    cursor: pointer;
+ }
+ .biryani .biryaniItem .nonVeg p{
+    font-weight: 300;
+    color: rgb(204, 204, 204);
+    padding-left: 20px;
+ }
+
+ /* rice-roti */
+.rice-roti{
+    display: flex;
+    justify-content: space-around;
+ }
+.rice-roti .roti{
+    font-family: "Josefin Sans", sans-serif;
+    color: chartreuse;
+    font-size: 30px;
+    font-weight: 700;
+}
+.rice-roti .rice{
+    font-family: "Josefin Sans", sans-serif;
+    color: chartreuse;
+    font-size: 30px;
+    font-weight: 600;
+}
+.rotiRiceItem{
+    display: flex;
+justify-content: space-around;
+}
+.rotiRiceItem .roti-dishes h5{
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+}
+.rotiRiceItem .rice-dishes h5{
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    cursor: pointer;
+}
+
+
+/* curry */
+.curry h2{
+    font-family: "Josefin Sans", sans-serif;
+    color: chartreuse;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.curryItem .veg{
+    margin-left: 40px;
+}
+.curryItem .veg h3{
+    color:rgb(217, 158, 19);
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 10px;
+}
+.curryItem .veg h5{
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    cursor: pointer;
+}
+.curryItem .veg p{
+    /* margin-left: 25px; */
+    font-weight: 300;
+    color: rgb(204, 204, 204);
+    padding-left: 20px;
+}
+
+.curryItem .nonVeg{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.curryItem .nonVeg h3{
+    color:rgb(217, 158, 19);
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 10px;
+}
+.curryItem .nonVeg h5{
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    cursor: pointer;
+}
+.curryItem .nonVeg p{
+    /* margin-left: 25px; */
+    font-weight: 300;
+    color: rgb(204, 204, 204);
+    padding-left: 20px;
+}
+.menu button{
+    padding: 6px;
+    background-color: orange;
+    border: none;
+    border-radius:5px ;
+    font-size: larger;
+    color: white;
+    margin-left: 700px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.menu button:hover{
+    color: black;
+}
+.menu h5:hover{
+    color: orange;
+}
+
+
+
+/* Drinks */
+.Drinks{
+    width: 100vw;
+    color: white;
+    background-color: black;
+    /* border-radius: 50%; */
+    border-top: 1px solid orange;
+}
+.Drinks h3{
+     padding-top: 30px;
+     margin-left: 200px;
+     font-size: 55px;
+     font-weight: 800;
+     font-family: "Dancing Script", cursive;
+     color: orange;
+     border-bottom:1px orange solid ;
+     width: 20vw;
+}
+
+/* chai */
+.chai{
+    display: flex;
+    padding-left: 210px;
+    
+    
+}
+.chai .chaiItem{
+    padding-top: 30px;
+    /* border-bottom: 1px solid orange; */
+}
+.chai img{
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+    /* background-color: aqua; */
+}
+.chai .chaiItem h4{
+    font-size: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    color: chartreuse;
+    padding-bottom: 10px;
+}
+.chai .chaiItem h5{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 1.3;
+}
+.chai .chaiItem h5:hover{
+    color: orange;
+}
+
+/* coffee */
+.coffee{
+    display: flex;
+    padding-left: 210px;
+}
+.coffee .coffeeItem{
+    padding-top: 30px;
+}
+.coffee .coffeeItem h4{
+    font-size: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    color: chartreuse;
+    padding-bottom: 10px;
+}
+.coffee .coffeeItem h5{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 1.3;
+}
+.coffee .coffeeItem h5:hover{
+    color: orange;
+}
+.coffee img{
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+    /* background-color: aqua; */
+}
+
+/* Shakes */
+.shakes{
+    display: flex;
+    padding-left: 210px;
+}
+.shakes img{
+    height: 250px;
+    width: 150px;
+    border-radius: 50%;
+    /* background-color: aqua; */
+    /* padding-top: 10px; */
+}
+.shakes .shakeItem{
+    padding-top: 50px;
+}
+.shakes .shakeItem h4{
+    font-size: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    color: chartreuse;
+    padding-bottom: 10px;
+}
+.shakes .shakeItem h5{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 1.3;
+}
+.shakes .shakeItem h5:hover{
+    color: orange;
+}
+.Drinks button{
+    padding: 6px;
+    background-color: orange;
+    border: none;
+    border-radius:5px ;
+    font-size: larger;
+    color: white;
+    margin-left: 700px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.Drinks button:hover{
+    color: black;
+}
+
+/* Cocktail */
+.cocktails
+{
+    display: flex;
+    padding-left: 210px;
+}
+.cocktails img{
+    height: 300px;
+    width: 150px;
+    border-radius: 50%;
+    /* background-color: aqua; */
+    /* padding-top: 10px; */
+    padding-top: 30px;
+}
+.cocktails .cocktailItem{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.cocktails .cocktailItem h4{
+    font-size: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    color: chartreuse;
+    padding-bottom: 10px;
+}
+.cocktails .cocktailItem h5{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 1.3;
+    
+}
+.cocktails .cocktailItem h5:hover{
+    color: orange;
+}
+.cocktails .cocktailItem p{
+    font-weight: 200;
+    color: rgb(204, 204, 204);
+    margin-left: 20px;
+}
+
+/* contact */
+.contactUs{
+    /* position: relative; */
+    font-family: "Josefin Sans", sans-serif;
+    background-color: black;
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
+}
+
+.contactUs .contactItem{
+    
+    top: 100px;
+    left: 100px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    right: 400px;
+}
+.contactUs .contactItem .call{
+    margin: 30px;
+    margin-right: 100px;
+    /* line-height: 2; */
+    
+}
+.contactUs .contactItem .call i{
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.contactUs .contactItem .call h5{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 25px;
+    line-height: 1.5;
+    text-shadow: 3px 3px 10px;
+}
+.contactUs .contactItem .call h4{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.contactUs .contactItem .location{
+    margin: 30px;
+}
+.contactUs .contactItem .location i{
+    font-size: 40px;
+    color: white;
+    font-weight: 500; 
+    margin-left: 30px;
+}
+.contactUs .contactItem .location h5{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 25px;
+    line-height: 1.5;
+    text-shadow: 3px 3px 10px;
+}
+.contactUs .contactItem .location h4{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.contactUs .contactItem .email{
+    margin: 30px;
+}
+.contactUs .contactItem .email i{
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.contactUs .contactItem .email h5{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 25px;
+    line-height: 1.5;
+    text-shadow: 3px 3px 10px;
+}
+.contactUs .contactItem .email h4{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Login page */
+.wrapper{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    /* position: relative; */
+    /* visibility: hidden; */
+    margin-left: 500px;
+    /* display: none; */
+    position: fixed;
+    /* flex-direction: column;
+    align-items: center; */
+    margin-top: 80px;
+    margin-left: 700px;
+    
+}
+.wrapper i{
+    margin-left: 360px;
+    /* padding-top: 30px; */
+    padding-right: 20px;
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    
+}
+.login h2{
+    margin-left: 150px;
+    margin-top: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+}
+
+.login .LoginEmail{
+    width: 90%;
+    /* background-color: aquamarine; */
+    border:none ;
+    margin-top: 20px;
+    display: flex;
+
+}
+.login .LoginEmail input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid orange;
+    margin-left: 30px;
+    padding: 0px 10px;
+    font-size: 15px;
+    /* border-radius: 5px; */
+}
+/* .login .email img{
+    height: 40px;
+    width: 40px;
+    background: white;
+    color: gray;
+} */
+.login .LoginPassword{
+    width: 92.5%;
+    /* background-color: aquamarine; */
+    border: none;
+    margin-top: 20px;
+    display: flex;
+    padding: 4px 10px;
+}
+.login .LoginPassword input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid orange;
+    margin-left: 20px;
+    padding: 4px 10px;
+    font-size: 15px;
+    /* border-radius:5px ; */
+}
+/* .login .password img{
+    height: 30px;
+    width: 30px;
+    background: white;
+    color: gray;
+} */
+
+.accessPassword{
+    display: flex;
+    padding: 5px 40px;
+    justify-content: space-between;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+.accessPassword a{
+    text-decoration: none;
+    color: orange;
+}
+.accessPassword a:hover{
+    color: black;
+}
+
+.login .submit{
+    width: 82%;
+    margin-left: 30px;
+    font-size: 20px;
+    padding-top: 3px;
+    padding-bottom:3px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.login .submit:hover{
+    color: black;
+}
+.login .register{
+    padding: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    padding-left: 50px;
+    
+}
+.login .register a{
+    text-decoration: none;
+    color: orange;
+}
+.login .register a:hover{
+    color: black;
+}
+
+/* registration */
+.registration{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    font-family: "Josefin Sans", sans-serif; 
+    margin-left: 500px;
+    /* visibility: none; */
+    /* display: none; */
+    margin-top: 80px;
+    margin-left: 700px;
+    position: absolute;
+}
+.registration i{
+    margin-left: 360px;
+    /* padding-top: 30px; */
+    padding-right: 20px;
+    font-size: 30px;
+}
+.registration h2{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+    
+}
+.registration .RegisterEmail{
+    margin-left: 40px;
+    padding-top: 10px;
+}
+.registration .RegisterEmail input{
+    width: 83%; 
+    border: none;
+    outline: none;
+    border-bottom: 1px solid orange;
+    font-size: 15px;
+}
+.registration .registerPassword{
+    margin-left: 40px;
+    padding-top: 10px;
+}
+.registration .registerPassword input{
+    width: 83%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid orange;
+    font-size: 15px;
+}
+.registration .registerConfirmPassword{
+    margin-left: 40px;
+    padding-top: 10px;
+}
+.registration .registerConfirmPassword input{
+    width: 83%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid orange;
+    font-size: 15px;
+}
+.registration .checkbox{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.registration .checkbox h4{
+    margin-left: 4px;
+}
+.registration button{
+    width: 82%;
+    margin-left: 30px;
+    font-size: 20px;
+    padding-top: 3px;
+    padding-bottom:3px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.registration button:hover{
+    color: black;
+}
+.registration .register-login{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.registration .register-login a{
+    margin-left: 4px;
+    text-decoration: none;
+    color: orange;
+}
+.registration .register-login a:hover{
+    color: black;
+}
+
+/* Forgot Proprty */
+.forgotPasswordPage{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    font-family: "Josefin Sans", sans-serif; 
+    margin-left: 500px;
+    /* visibility: none; */
+    /* display: none; */
+    margin-top: 80px;
+    margin-left: 700px;
+    position: absolute;
+    padding-left: 50px;
+}
+.forgotPasswordPage i{
+    height: 40px;
+    width: 40px;
+    margin-left: 310px;
+    /* margin-top: 20px; */
+    font-size: 30px;
+}
+.forgotPasswordPage h2{
+    /* margin-left: 0px; */
+    margin-top: 50px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+    margin-bottom: 50px;
+    
+}
+.forgotPasswordPage input{
+    outline: none;
+    border:none;
+    border-bottom: 1px solid orange;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+.forgotPasswordPage button{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 60%;
+    font-size: 15px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+}
+.forgotPasswordPage button:hover{
+    color: black;
+}
+
+/* forgot Password Submit Button Page */
+.forgotPasswordSubmitPage{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    font-family: "Josefin Sans", sans-serif; 
+    margin-left: 500px;
+    /* visibility: none; */
+    /* display: none; */
+    margin-top: 80px;
+    margin-left: 700px;
+    position: absolute;
+    padding-left: 50px;
+}
+.forgotPasswordSubmitPage i{
+    height: 40px;
+    width: 40px;
+    margin-left: 310px;
+    /* margin-top: 20px; */
+    font-size: 30px;
+}
+.forgotPasswordSubmitPage h2{
+    margin-top: 30px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+.forgotPasswordSubmitPage h3{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 25px;
+    color: orange;
+    margin-left: 50px;
+    
+}
+
+/* hide property */
+.hidden{
+    display: none;
+}
