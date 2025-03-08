@@ -19,22 +19,26 @@ t1.from('.nav .nav-menu',{
 // for home
 t1.from(".home .home-left h1",{
     y:-30,
-    duration:0.2,
+    duration:0.5,
     // stagger:1,
     opacity:0
+    // delay:1,
+
 })
 t1.from(".home .home-left h3",{
     y:30,
-    duration:0.2,
+    // delay:1,
+    duration:0.5,
     opacity:0
 })
 t1.from(".home .home-left p",{
     opacity:0,
-    duration:1
+    duration:.4
+    // delay:1,
 })
 t1.from(".home .home-left a",{
     opacity:0,
-    // duration:0.2
+    // duration:0.3
 })
 // t1.from(".starters-container .starters h1",{
 //     y:50,
@@ -60,7 +64,16 @@ let forgotPasswordSubmitPage=document.querySelector('.forgotPasswordSubmitPage')
 let forgotPasswordSubmitPageCloseIcon=document.querySelector('.forgotPasswordSubmitPage i')
 let cursor=document.querySelector('.cursor')
 let container=document.querySelector('.container')
-
+let navStarters=document.querySelector("#nav-starters")
+let navMenu=document.querySelector("#nav-menu")
+let navContact=document.querySelector("#nav-contact")
+let navHome=document.querySelector('#nav-home')
+let directOrderNow=document.querySelectorAll(".directOrderNow")
+let restaurantItem=document.querySelectorAll(".restaurant-item")
+let restaurantPizzaItem=document.querySelectorAll(".restaurant-pizza-item")
+let pizzaSize=document.querySelectorAll(".pizza-size")
+let confirmOrder=document.querySelector("#confirm-order")
+let shakeOrder=document.querySelector("#shake-order")
 // console.log(login)
 // console.log(loginForm)
 // console.log(LoginIcon)
@@ -90,7 +103,28 @@ container.addEventListener('mousemove',(dets)=>{
 
 
  
+navStarters.addEventListener("click",()=>{
+    navStarters.style.color="blue";
+    navMenu.style.color="white";
+    navContact.style.color="white";
+})
 
+navMenu.addEventListener("click",()=>{
+    navMenu.style.color="blue";
+    navStarters.style.color="white";
+    navContact.style.color="white"
+})
+navContact.addEventListener("click",()=>{
+    navContact.style.color="blue";
+    navMenu.style.color="white";
+    navStarters.style.color="white";
+})
+navHome.addEventListener("click",()=>{
+    // navHome.atyle.color="blue";
+    navContact.style.color="white";
+    navMenu.style.color="white";
+    navStarters.style.color="white";
+})
 
 LoginIcon.addEventListener('click',()=>{
     loginForm.style.display="none"
@@ -136,4 +170,59 @@ forgotPasswordSubmitButton.addEventListener('click',()=>{
 
 forgotPasswordSubmitPageCloseIcon.addEventListener('click',()=>{
     forgotPasswordSubmitPage.classList.toggle('hidden')
+})
+
+// order Now working
+
+directOrderNow.forEach(button =>{
+    button.addEventListener("click",()=>{
+        alert("Order confirmed !");
+        // directOrderNow.style.color="green"
+    });
+});
+
+restaurantItem.forEach(item=>{
+    item.addEventListener("click",()=>{
+        item.style.color="blue";
+    });
+});
+
+//pizza items
+
+restaurantPizzaItem.forEach(item=>{
+    item.addEventListener("click",function(){
+        //  console.log(event);
+        // alert("choose pizza size !");
+        item.style.color="blue";
+        pizzaSize.forEach(button=>{
+            button.addEventListener('click',()=>{
+                button.style.backgroundColor='blue';
+            })
+        })
+    })
+})
+
+
+//confirm order
+confirmOrder.addEventListener("click",()=>{
+    alert("Order Confirmed !");
+    restaurantItem.forEach(item=>{
+        item.style.color="white";
+
+    })
+    restaurantPizzaItem.forEach(ele=>{
+        ele.style.color="white";
+        pizzaSize.forEach(button=>{
+            
+                button.style.backgroundColor='orange';
+             })
+    })
+})
+
+shakeOrder.addEventListener("click",()=>{
+    alert("Order Confirmed !");
+    restaurantItem.forEach(item=>{
+        item.style.color="white";
+
+    })
 })

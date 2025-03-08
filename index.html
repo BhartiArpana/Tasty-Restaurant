@@ -21,10 +21,10 @@
                 Tasty
             </div>
             <div class="nav-menu">
-               <a href="#Home">Home</a>
-               <a href="#starter">Starters</a>
-               <a href="#Menu">Menu</a>
-               <a href="#Contact">Contact</a>
+               <a id="nav-home" href="#Home">Home</a>
+               <a id="nav-starters" href="#starter">Starters</a>
+               <a id="nav-menu" href="#Menu">Menu</a>
+               <a id="nav-contact" href="#Contact">Contact</a>
                <a href="#Home" id="login">Login</a> 
                <a href="http://"><i class="ri-shopping-cart-2-line"></i></a>
             </div>
@@ -141,7 +141,7 @@
                     <div class="starterRText">
                         <a href="#">French Fried</a>
                         <p>100/-</p>
-                        <button>Order Now</button>
+                        <button class="directOrderNow">Order Now</button>
                     </div>
                     <img src="./french-fried.jpg" alt="">
                 </div>
@@ -150,14 +150,14 @@
                     <div class=" starterLText">
                         <a href="#">Spring Roll</a>
                         <p>100/-</p>
-                        <button>Order Now</button>
+                        <button class="directOrderNow">Order Now</button>
                     </div>
                 </div>
                 <div class="starters-right samosa">
                     <div class="starterRText">
                         <a href="#">Samosa</a>
                         <p>100/-</p>
-                        <button>Order Now</button>
+                        <button class="directOrderNow">Order Now</button>
                     </div>
                     <img src="./samosa.webp" alt="">
                 </div>
@@ -166,14 +166,14 @@
                     <div class="starterLText">
                         <a href="#">Noodles</a>
                         <p>100/-</p>
-                        <button>Order Now</button>
+                        <button class="directOrderNow">Order Now</button>
                     </div>
                 </div>
                 <div class="starters-right momo">
                     <div class="starterRText">
                         <a href="#">Momo's</a>
                         <p>100/-</p>  
-                        <button>Order Now</button>
+                        <button class="directOrderNow">Order Now</button>
                     </div>
                     <img src="./momos.png" alt="">
                 </div>
@@ -201,11 +201,11 @@
                 <div class="soup">
                     <h2>Soup : </h2>
                     <div class="soupItem">
-                        <h5>1. Tomato Soup ---------------------------------------------------------------------------------------------- 140/-</h5>
-                        <h5>2. Mushroom Cream Soup ------------------------------------------------------------------------------ 160/-</h5>
-                        <h5>3. Mutton Bone Soup ------------------------------------------------------------------------------------- 180/-</h5>
-                        <h5>4. Chicken Corn Soup ------------------------------------------------------------------------------------- 179/-</h5>
-                        <h5>5. Chicken Cantones Soup ------------------------------------------------------------------------------ 190/-</h5>
+                        <h5 class="restaurant-item">1. Tomato Soup ---------------------------------------------------------------------------------------------- 140/-</h5>
+                        <h5 class="restaurant-item">2. Mushroom Cream Soup ------------------------------------------------------------------------------ 160/-</h5>
+                        <h5 class="restaurant-item">3. Mutton Bone Soup ------------------------------------------------------------------------------------- 180/-</h5>
+                        <h5 class="restaurant-item">4. Chicken Corn Soup ------------------------------------------------------------------------------------- 179/-</h5>
+                        <h5 class="restaurant-item">5. Chicken Cantones Soup ------------------------------------------------------------------------------ 190/-</h5>
                      </div>     
                 </div>
              
@@ -216,20 +216,20 @@
                   <h2>Noodles</h2>
                     <div class="noodlesItem">
                         <div class="veg">
-                            <h3>Veg Noodles : </h3>
-                            <h5>1. Veg Noodles ----------------------- 80/-</h5>
-                            <h5>2. Paneer Noodles ------------------ 130/-</h5>
-                            <h5>3. Schezwan Noodles -------------- 150/-</h5>
-                            <h5>4. Chilli Garlic Noodles------------ 150/-</h5>
-                            <h5>5. Hakka Noodles  ------------------- 150/-</h5>
+                            <h3 >Veg Noodles : </h3>
+                            <h5 class="restaurant-item">1. Veg Noodles ----------------------- 80/-</h5>
+                            <h5 class="restaurant-item">2. Paneer Noodles ------------------ 130/-</h5>
+                            <h5 class="restaurant-item">3. Schezwan Noodles -------------- 150/-</h5>
+                            <h5 class="restaurant-item">4. Chilli Garlic Noodles------------ 150/-</h5>
+                            <h5 class="restaurant-item">5. Hakka Noodles  ------------------- 150/-</h5>
                         </div>
                         <div class="nonVeg ">
                            <h3>No-Veg Noodles: </h3>
-                           <h5>1. Chicken Noodles ----------------- 180/-</h5>
-                           <h5>2. Egg Soft Noodles --------------- 100/-</h5>
-                           <h5>3. Mutton Chowmein --------------- 210/-</h5>
-                           <h5>4. Chilli Chicken Noodles --------- 190/-</h5>
-                           <h5>5. Chicken Lollipop Noodles ----- 210-</h5>
+                           <h5 class="restaurant-item">1. Chicken Noodles ----------------- 180/-</h5>
+                           <h5 class="restaurant-item">2. Egg Soft Noodles --------------- 100/-</h5>
+                           <h5 class="restaurant-item">3. Mutton Chowmein --------------- 210/-</h5>
+                           <h5 class="restaurant-item">4. Chilli Chicken Noodles --------- 190/-</h5>
+                           <h5 class="restaurant-item">5. Chicken Lollipop Noodles ----- 210-</h5>
                         </div>
                     </div>  
                  </div>
@@ -240,32 +240,32 @@
                     <div class="pizzaItem">
                         <div class="veg">
                             <h3>Veg Pizza: </h3>
-                            <h5>1. Margherita Pizza ------------------------------------------------------------------------ 195/-  <button>S</button><button>M</button><button>L</button></h5>
+                            <h5 class="restaurant-pizza-item">1. Margherita Pizza ------------------------------------------------------------------------ 195/-  <button class="pizza-size">S</button><button class="pizza-size">M</button><button class="pizza-size">L</button></h5>
                                <p>A classic pizza with tomato sauce, mozzarella cheese, and fresh basil.</p>
-                            <h5>2. Veggie Supreme ------------------------------------------------------------------------- 250/-  <button>S</button><button>M</button><button>L</button></h5>
+                            <h5 class="restaurant-pizza-item">2. Veggie Supreme ------------------------------------------------------------------------- 250/-  <button class="pizza-size">S</button><button class="pizza-size">M</button><button class="pizza-size">L</button></h5>
                             <p>A mix of bell peppers, onions, mushrooms, olives, tomatoes ,and spinach, usually topped with mozzarella.</p>
-                            <h5>3. Mushroom Pizza ------------------------------------------------------------------------- 250/-  <button>S</button><button>M</button><button>L</button></h5>
+                            <h5 class="restaurant-pizza-item">3. Mushroom Pizza ------------------------------------------------------------------------- 250/-  <button class="pizza-size">S</button><button class="pizza-size">M</button><button class="pizza-size">L</button></h5>
                             <p>A pizza topped with fresh or sauteed mushrooms, mozzarella, and often garlic or herbs.</p>
-                            <h5>4. Four Cheese Pizza ----------------------------------------------------------------------- 279/-  <button>S</button><button>M</button><button>L</button></h5>
+                            <h5 class="restaurant-pizza-item">4. Four Cheese Pizza ----------------------------------------------------------------------- 279/-  <button class="pizza-size">S</button><button class="pizza-size">M</button><button class="pizza-size">L</button></h5>
                             <p>A blend of four types of cheese, usually  mozzarella ,parmesan, cheddar, and gorgonzola.</p>
-                            <h5>5. Pesto Veg Pizza -------------------------------------------------------------------------- 250/-  <button>S</button><button>M</button><button>L</button></h5>
+                            <h5 class="restaurant-pizza-item">5. Pesto Veg Pizza -------------------------------------------------------------------------- 250/-  <button class="pizza-size">S</button><button class="pizza-size">M</button><button class="pizza-size">L</button></h5>
                             <p>A pizza with pesto souce, often topped with tomatoes, and other veggies.</p>
-                            <h5>6. Greek Pizza -------------------------------------------------------------------------------- 250/-  <button>S</button><button>M</button><button>L</button></h5>
+                            <h5 class="restaurant-pizza-item">6. Greek Pizza -------------------------------------------------------------------------------- 250/-  <button class="pizza-size">S</button><button class="pizza-size">M</button><button class="pizza-size">L</button></h5>
                             <p>Topped with infredients like feta cheese, black olives, red onions, and spinach.</p>
                         </div>
                         <div class="nonVeg">
                             <h3>Non-Veg Pizza : </h3>
-                            <h5>1. Chicken Tikka Pizza --------------------------------------------------------------------- 259/-  <button>S</button><button>M</button><button>L</button></h5>
+                            <h5 class="restaurant-pizza-item">1. Chicken Tikka Pizza --------------------------------------------------------------------- 259/-  <button class="pizza-size">S</button><button class="pizza-size">M</button><button class="pizza-size">L</button></h5>
                             <p>A fusion pizza with chunks of chicken marinated in tikka masala sauce, often with onions and bell peppers.</p>
-                            <h5>2. BBQ Chicken pizza --------------------------------------------------------------------- 259/-  <button>S</button><button>M</button><button>L</button></h5>
+                            <h5 class="restaurant-pizza-item">2. BBQ Chicken pizza --------------------------------------------------------------------- 259/-  <button class="pizza-size">S</button><button class="pizza-size">M</button><button class="pizza-size">L</button></h5>
                             <p>Chicken chunks, often cooked in BBQ sauce, along with onions,cheese, and sometimes bacon or mushrooms</p>
-                            <h5>3. Meat Lovers pizza ----------------------------------------------------------------------- 279/-  <button>S</button><button>M</button><button>L</button></h5>
+                            <h5 class="restaurant-pizza-item">3. Meat Lovers pizza ----------------------------------------------------------------------- 279/-  <button class="pizza-size">S</button><button class="pizza-size">M</button><button class="pizza-size">L</button></h5>
                             <p>A combination of various meats ,such as pepperoni, sausage, bacon, and ham, topped with mozzarella.</p>
-                            <h5>4. Hawaiian pizza --------------------------------------------------------------------------- 299/-  <button>S</button><button>M</button><button>L</button></h5>
+                            <h5 class="restaurant-pizza-item">4. Hawaiian pizza --------------------------------------------------------------------------- 299/-  <button class="pizza-size">S</button><button class="pizza-size">M</button><button class="pizza-size">L</button></h5>
                             <p>A combination of ham and pineapple, sometimes with additional toppings like bacon or chicken.</p>
-                            <h5>5. Chicken and Mushroom --------------------------------------------------------------- 307/-  <button>S</button><button>M</button><button>L</button></h5>
+                            <h5 class="restaurant-pizza-item">5. Chicken and Mushroom --------------------------------------------------------------- 307/-  <button class="pizza-size">S</button><button class="pizza-size">M</button><button class="pizza-size">L</button></h5>
                             <p>Topped with grilled chicken, mushrooms, mozzarella cheese, and sometimes garlic.</p>
-                            <h5>6. Bacon and Eggs Pizza ----------------------------------------------------------------- 310/-  <button>S</button><button>M</button><button>L</button></h5>
+                            <h5 class="restaurant-pizza-item">6. Bacon and Eggs Pizza ----------------------------------------------------------------- 310/-  <button class="pizza-size">S</button><button class="pizza-size">M</button><button class="pizza-size">L</button></h5>
                             <p>A breakfast-style pizza with crispy bacon, eggs, and cheese, often served with a creamy souce.</p>
                         </div>
                     </div> 
@@ -278,28 +278,28 @@
                     <div class="biryaniItem">
                         <div class="veg">
                            <h3>Veg : </h3>
-                        <h5>1.  Vegetable Biryani -------------------------------------------------------------------------- 160/-</h5>
+                        <h5 class="restaurant-item">1.  Vegetable Biryani -------------------------------------------------------------------------- 160/-</h5>
                         <p>A rich and aromatic biryani made with mixed vegetables like> carrots, beans, peas, and potatoes, seasoned with a variety of spices.</p>
-                        <h5>2.  Paneer Biryani ------------------------------------------------------------------------------ 180/-</h5>
+                        <h5 class="restaurant-item">2.  Paneer Biryani ------------------------------------------------------------------------------ 180/-</h5>
                         <p>A vegetarian biryani made with paneer cubes, cooked with basmati rice and flavorful spices.</p>
-                        <h5>3.  Mushroom Biryani ------------------------------------------------------------------------- 210/- </h5>
+                        <h5 class="restaurant-item">3.  Mushroom Biryani ------------------------------------------------------------------------- 210/- </h5>
                         <p>Made with mushrooms, this biryani has an earthy flavor and is perfect for vegetarians or anyone seeking a different twist on traditional biryani.</p>
-                        <h5>4.  Dum Vegetable Biryani ----------------------------------------------------------------- 210/-</h5>
+                        <h5 class="restaurant-item">4.  Dum Vegetable Biryani ----------------------------------------------------------------- 210/-</h5>
                         <p>A dum-cooked vegetable biryani where vegetables are sealed with dough to retain all the flavors</p>
-                        <h5>spinach Biryani -------------------------------------------------------------------------------- 230/-</h5>
+                        <h5 class="restaurant-item">spinach Biryani -------------------------------------------------------------------------------- 230/-</h5>
                         <p>A  unique twist using spinachi as a main ingredient, often combined with other vegetables and spices.</p>
                         </div>
                         <div class="nonVeg">
                             <h3>Non-Veg : </h3>
-                            <h5>1. Chicken Biryani ------------------------------------------------------------------------------ 250/-</h5>
+                            <h5 class="restaurant-item">1. Chicken Biryani ------------------------------------------------------------------------------ 250/-</h5>
                             <p>Tender chicken pieces cooked with basmati rice, flavored with a mix of saffron, and sometimes yogurt.</p>
-                            <h5>2. Mutton Biryani ------------------------------------------------------------------------------- 279/-</h5>
+                            <h5 class="restaurant-item">2. Mutton Biryani ------------------------------------------------------------------------------- 279/-</h5>
                             <p>A rich biryani made with succulent mutton or lamb, cooked with spices like cardamom, cloves, and cinnamon, often marinated for extra flavor.</p>
-                            <h5>3. Fish Biryani ------------------------------------------------------------------------------------ 260/-</h5>
+                            <h5 class="restaurant-item">3. Fish Biryani ------------------------------------------------------------------------------------ 260/-</h5>
                             <p>Made with delicate fish like kingfish or salmon, marinated in spices and layered with fragrant rice.</p>
-                            <h5>4. Egg Biryani ------------------------------------------------------------------------------------ 299/-</h5>
+                            <h5 class="restaurant-item">4. Egg Biryani ------------------------------------------------------------------------------------ 299/-</h5>
                             <p>A vegetarian-friendly yet protein-packed biryani made with boiled eggs, seasoned with the same rich spices.</p>
-                            <h5>Beef Biryani -------------------------------------------------------------------------------------- 310/-</h5>
+                            <h5 class="restaurant-item">Beef Biryani -------------------------------------------------------------------------------------- 310/-</h5>
                             <p>A variation where beef is used instead of chicken or mutton, seasoned with aromatic spices, and cooked to perfection.</p>
                         </div>
                     </div> 
@@ -318,16 +318,16 @@
                        </div>
                        <div class="rotiRiceItem">
                         <div class="roti-dishes">
-                            <h5>1. Plain Roti ---------------------------- 20/-</h5>
-                            <h5>2. Chapati ------------------------------ 25/-</h5>
-                            <h5>3. Tandoori Roti ---------------------- 30/-</h5>
-                            <h5>4. Paratha ------------------------------ 25/-</h5>
+                            <h5 class="restaurant-item">1. Plain Roti ---------------------------- 20/-</h5>
+                            <h5 class="restaurant-item">2. Chapati ------------------------------ 25/-</h5>
+                            <h5 class="restaurant-item">3. Tandoori Roti ---------------------- 30/-</h5>
+                            <h5 class="restaurant-item">4. Paratha ------------------------------ 25/-</h5>
                          </div>
                          <div class="rice-dishes">
-                          <h5>1. Steamed Basmati Rice -------------------------- 140/-</h5>
-                          <h5>2. Jeera Rice -------------------------------------------- 160/-</h5>
-                          <h5>3. Pulao --------------------------------------------------- 169/</h5>
-                          <h5>4. Lemon Rice ------------------------------------------ 175/-</h5>
+                          <h5 class="restaurant-item">1. Steamed Basmati Rice -------------------------- 140/-</h5>
+                          <h5 class="restaurant-item">2. Jeera Rice -------------------------------------------- 160/-</h5>
+                          <h5 class="restaurant-item">3. Pulao --------------------------------------------------- 169/</h5>
+                          <h5 class="restaurant-item">4. Lemon Rice ------------------------------------------ 175/-</h5>
                          </div>
                        </div>
                  </div> 
@@ -340,35 +340,35 @@
                     <div class="curryItem">
                         <div class="veg">
                             <h3>Veg Curry :</h3>
-                              <h5>1. Paneer Butter Masala ---------------------------------------------------------------------------------------- 140/-</h5>
+                              <h5 class="restaurant-item">1. Paneer Butter Masala ---------------------------------------------------------------------------------------- 140/-</h5>
                               <p>Cubes of soft paneer cooked in a rich, creamy tomato-based gravy with butter, cream, and aromatic spices.</p>
-                              <h5>2. Palak Paneer ----------------------------------------------------------------------------------------------------- 160/-</h5>
+                              <h5 class="restaurant-item">2. Palak Paneer ----------------------------------------------------------------------------------------------------- 160/-</h5>
                               <p>Paneer cooked in a smooth and mildly spiced spinach gravy.</p>
-                              <h5>3. Aloo Gobi ---------------------------------------------------------------------------------------------------------- 160/-</h5>
+                              <h5 class="restaurant-item">3. Aloo Gobi ---------------------------------------------------------------------------------------------------------- 160/-</h5>
                               <p>A dry curry made with potatos and cauliflower in a blend of turmeric, cumin ,and coriander.</p>
-                              <h5>4.Baingan Bharta ------------------------------------------------------------------------------------------------- 179/-</h5>
+                              <h5 class="restaurant-item">4.Baingan Bharta ------------------------------------------------------------------------------------------------- 179/-</h5>
                               <p>Roasted agglant mashed and cooked with onions, tomatoes, and spices for a smoly-flavored curry.</p>
-                              <h5>5. Mixed Vegetable curry --------------------------------------------------------------------------------------- 190/-</h5>
+                              <h5 class="restaurant-item">5. Mixed Vegetable curry --------------------------------------------------------------------------------------- 190/-</h5>
                               <p>A hearty curry made with a variety of vegetables like carrots, peas, beans, and potatoes, cooked in a flavorful ,spiced gravy.</p>
                         </div> 
 
                         <div class="nonVeg">
                             <h3>Non-Veg Curry :</h3>
-                            <h5>1. Butter Chicken --------------------------------------------------------------------------------------------------- 190/-</h5>
+                            <h5 class="restaurant-item">1. Butter Chicken --------------------------------------------------------------------------------------------------- 190/-</h5>
                             <p>Tender chicken cooked in a creamy, butter tomato gravy, flavored with garam masala and other spices .</p>
-                            <h5>2. Chicken Tikka Masala --------------------------------------------------------------------------------------- 210/-</h5>
+                            <h5 class="restaurant-item">2. Chicken Tikka Masala --------------------------------------------------------------------------------------- 210/-</h5>
                             <p>Grilled chicken chunks cooked in a rich, spiced tomato-based sauce, often creamy and flavorful.</p>
-                            <h5>3. Fish Curry --------------------------------------------------------------------------------------------------------- 225/-/-</h5>
+                            <h5 class="restaurant-item">3. Fish Curry --------------------------------------------------------------------------------------------------------- 225/-/-</h5>
                             <p>A South Indian-style curry made with fresh fish, tarmarind, and a blend of spices like mustard seeds, curry leaves, and coconut.</p>
-                            <h5>4.Egg Curry ---------------------------------------------------------------------------------------------------------- 225/-</h5>
+                            <h5 class="restaurant-item">4.Egg Curry ---------------------------------------------------------------------------------------------------------- 225/-</h5>
                             <p>hard-boiled eggs cooked in a flavorful, speced onion-tomato gravy, often enjoyed with rice or bread.</p>
-                            <h5>Goan Fish Curry ---------------------------------------------------------------------------------------------------- 250/-</h5>
+                            <h5 class="restaurant-item">Goan Fish Curry ---------------------------------------------------------------------------------------------------- 250/-</h5>
                             <p>A tangy and spicy fish curry made with tamarind, coconut milk, and Goan spices.</p>
                         </div>
                     </div>
                  </div>
             </div>
-            <button>Order Now</button>
+            <button id="confirm-order">Order Now</button>
            
           </div>
 
@@ -380,12 +380,12 @@
                 <img src="./chai.jpg" alt="">
                 <div class="chaiItem">
                     <h4>Chai</h4>
-                    <h5>1. Normal Chai ---------------------------------------- 15/-</h5>
-                    <h5>2. Adarak Chai ---------------------------------------- 20/-</h5>
-                    <h5>3. Elaichi Chai ----------------------------------------- 20/-</h5>
-                    <h5>4. Masala Chai ---------------------------------------- 30/-</h5>
-                    <h5>5. Honey Lemon Chai ------------------------------ 30/-</h5>
-                    <h5>6. Green Chai ------------------------------------------ 20/-</h5>
+                    <h5 class="restaurant-item">1. Normal Chai ---------------------------------------- 15/-</h5>
+                    <h5 class="restaurant-item">2. Adarak Chai ---------------------------------------- 20/-</h5>
+                    <h5 class="restaurant-item">3. Elaichi Chai ----------------------------------------- 20/-</h5>
+                    <h5 class="restaurant-item">4. Masala Chai ---------------------------------------- 30/-</h5>
+                    <h5 class="restaurant-item">5. Honey Lemon Chai ------------------------------ 30/-</h5>
+                    <h5 class="restaurant-item">6. Green Chai ------------------------------------------ 20/-</h5>
                 </div>
               </div>
 
@@ -393,11 +393,11 @@
               <div class="coffee">
                 <div class="coffeeItem">
                     <h4>Coffee</h4>
-                    <h5>1. Hot Coffee ---------------------------------------- 60/-</h5>
-                    <h5>2. Strong Coffee ------------------------------------ 90/-</h5>
-                    <h5>3. Chocolate Coffee ------------------------------- 150/-</h5>
-                    <h5>4. Black Coffee -------------------------------------- 179/-</h5>
-                    <h5>5. Strong Chocolate Coffee -------------------- 200/-</h5>
+                    <h5 class="restaurant-item">1. Hot Coffee ---------------------------------------- 60/-</h5>
+                    <h5 class="restaurant-item">2. Strong Coffee ------------------------------------ 90/-</h5>
+                    <h5 class="restaurant-item">3. Chocolate Coffee ------------------------------- 150/-</h5>
+                    <h5 class="restaurant-item">4. Black Coffee -------------------------------------- 179/-</h5>
+                    <h5 class="restaurant-item">5. Strong Chocolate Coffee -------------------- 200/-</h5>
                 </div>
                 <img src="./coffee.jpg" alt="">
               </div>
@@ -407,11 +407,11 @@
                 <img src="./shake.jpg" alt="">
                 <div class="shakeItem">
                     <h4>Shakes</h4>
-                    <h5>1. Vanilla Shake --------------------------------------------------- 90/-</h5>
-                    <h5>2. CCW Spcl Smoothie ---------------------------------------- 120/-</h5>
-                    <h5>3. Strawberry Shake -------------------------------------------- 150/-</h5>
-                    <h5>4. Butter Shake --------------------------------------------------- 170/-</h5>
-                    <h5>5. Oreo Shake ----------------------------------------------------- 199/-</h5>
+                    <h5 class="restaurant-item">1. Vanilla Shake --------------------------------------------------- 90/-</h5>
+                    <h5 class="restaurant-item">2. CCW Spcl Smoothie ---------------------------------------- 120/-</h5>
+                    <h5 class="restaurant-item">3. Strawberry Shake -------------------------------------------- 150/-</h5>
+                    <h5 class="restaurant-item">4. Butter Shake --------------------------------------------------- 170/-</h5>
+                    <h5 class="restaurant-item">5. Oreo Shake ----------------------------------------------------- 199/-</h5>
                 </div>
               </div>
 
@@ -419,20 +419,20 @@
                <div class="cocktails">
                 <div class="cocktailItem">
                     <h4>Cocktails</h4>
-                    <h5>1. Classic Mojito  ---------------------------------------- 250/-</h5>
+                    <h5 class="restaurant-item">1. Classic Mojito  ---------------------------------------- 250/-</h5>
                     <p>Rum infused with fresh lime, mint and sugar.</p>
-                    <h5>2. Royal Martini ---------------------------------------- 279/-</h5>
+                    <h5 class="restaurant-item">2. Royal Martini ---------------------------------------- 279/-</h5>
                     <p>Freshly brewed espresso mixed with rum and time.</p>
-                    <h5>3. Raspberry Mojito ----------------------------------- 310/-</h5>
+                    <h5 class="restaurant-item">3. Raspberry Mojito ----------------------------------- 310/-</h5>
                     <p>Rum stirred with raspberrry, fresh mint, lime and sugar.</p>
-                    <h5>4. Daiquiri ------------------------------------------------- 349/-</h5>
+                    <h5 class="restaurant-item">4. Daiquiri ------------------------------------------------- 349/-</h5>
                     <p>Rum, lemon juice and sugar mixed with apple.</p>
-                    <h5>5. Retro Margarita ------------------------------------- 369/-</h5>
+                    <h5 class="restaurant-item">5. Retro Margarita ------------------------------------- 369/-</h5>
                     <p>Tequila, lime juice, rum with pinch of salt.</p>
                 </div>
                 <img src="./cocktail.jpg" alt="">
                </div>
-               <button>Order Now</button>
+               <button id="shake-order">Order Now</button>
            </div>
 
 

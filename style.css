@@ -150,6 +150,7 @@ html,body{
     padding: 6px 10px;
     border-radius: 5px;
     /* margin-top: 100px; */
+    /* margin-top: 100px; */
 
 }
 .home .home-left a:hover{
@@ -530,6 +531,7 @@ justify-content: space-around;
     font-size: 20px;
     font-weight: 600;
     line-height: 1;
+    cursor: pointer;
 }
 .rotiRiceItem .rice-dishes h5{
     font-family: "Josefin Sans", sans-serif;
@@ -664,9 +666,11 @@ justify-content: space-around;
     font-weight: 500;
     font-family: "Josefin Sans", sans-serif;
     line-height: 1.3;
+    cursor: pointer;
 }
 .chai .chaiItem h5:hover{
     color: orange;
+    cursor: pointer;
 }
 
 /* coffee */
@@ -688,9 +692,11 @@ justify-content: space-around;
     font-weight: 500;
     font-family: "Josefin Sans", sans-serif;
     line-height: 1.3;
+    cursor: pointer;
 }
 .coffee .coffeeItem h5:hover{
     color: orange;
+    cursor: pointer;
 }
 .coffee img{
     height: 200px;
@@ -725,9 +731,11 @@ justify-content: space-around;
     font-weight: 500;
     font-family: "Josefin Sans", sans-serif;
     line-height: 1.3;
+    cursor: pointer;
 }
 .shakes .shakeItem h5:hover{
     color: orange;
+    cursor: pointer;
 }
 .Drinks button{
     padding: 6px;
@@ -742,6 +750,7 @@ justify-content: space-around;
 }
 .Drinks button:hover{
     color: black;
+    cursor: pointer;
 }
 
 /* Cocktail */
@@ -773,10 +782,11 @@ justify-content: space-around;
     font-weight: 500;
     font-family: "Josefin Sans", sans-serif;
     line-height: 1.3;
-    
+    cursor: pointer;
 }
 .cocktails .cocktailItem h5:hover{
     color: orange;
+    cursor: pointer;
 }
 .cocktails .cocktailItem p{
     font-weight: 200;
